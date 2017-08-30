@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.liushaofeng.orm.dao.FSBlogDAO">
+
+	<resultMap id="blogResultMap" type="cn.liushaofeng.orm.po.FSBlogModel">
+		<id property="id" column="id" />
+		<result property="blogName" column="blog_name" jdbcType="VARCHAR" />
+		<result property="blogAuthor" column="blog_author" jdbcType="INTEGER" />
+		<result property="blogContent" column="blog_content" jdbcType="VARCHAR" />
+		<result property="blogType" column="blog_type" jdbcType="SMALLINT" />
+		<result property="visited" column="visited" jdbcType="INTEGER" />
+		<result property="creatTime" column="create_time" jdbcType="TIMESTAMP" />
+		<association property="author" javaType="cn.liushaofeng.orm.po.FSUserModel">
+			<id property="id" column="id" />
+			<result property="userName" column="user_name" jdbcType="INTEGER" />
+			<result property="nickName" column="user_nick_name" jdbcType="INTEGER" />
+			<result property="qq" column="user_qq" jdbcType="INTEGER" />
+			<result property="weixin" column="user_weixin" jdbcType="INTEGER" />
+			<result property="email" column="user_email" jdbcType="INTEGER" />
+			<result property="creatTime" column="create_time" jdbcType="TIMESTAMP" />
+		</association>
+	</resultMap>
+
+	<insert id="add" parameterType="cn.liushaofeng.orm.po.FSBlogModel">
+		INSERT INTO liushaofeng_cn_blog (blog_name, blog_author,blog_content,blog_type,visited,create_time) VALUES (#{blogName}, #{blogAuthor}, #{blogContent},
+		#{blogType}, #{visited}, #{creatTime})
+	</insert>
+
+	<select id="findByType" resultMap="blogResultMap">
+		SELECT * FROM liushaofeng_cn_blog WHERE blog_type = #{type}
+	</select>
+
+	<select id="findById" resultMap="blogResultMap">
+		SELECT * FROM liushaofeng_cn_blog WHERE id = #{id}
+	</select>
+
+	<select id="findAll" resultMap="blogResultMap">
+		SELECT * FROM liushaofeng_cn_blog ORDER BY create_time DESC
+	</select>
+</mapper> 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.liushaofeng.orm.dao.FSUserDAO">
+
+	<resultMap id="blogUserMap" type="cn.liushaofeng.orm.po.FSUserModel">
+		<id property="id" column="id" />
+		<result property="userName" column="user_name" jdbcType="VARCHAR" />
+		<result property="nickName" column="user_nick_name" jdbcType="VARCHAR" />
+		<result property="qq" column="user_qq" jdbcType="VARCHAR" />
+		<result property="weixin" column="user_weixin" jdbcType="VARCHAR" />
+		<result property="email" column="user_email" jdbcType="VARCHAR" />
+		<result property="creatTime" column="create_time" jdbcType="TIMESTAMP" />
+	</resultMap>
+
+</mapper> 
+
