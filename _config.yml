@@ -1,6 +1,6 @@
 # Site settings
-title: Fenshao's Blog
-SEOTitle: 锋少的博客 | Hux Blog
+title: Fengshao's Blog
+SEOTitle: 锋少的博客 | Fengshao's Blog
 header-img: asset/img/home-bg.jpg
 email: liushaofeng89@qq.com
 description: ""
@@ -19,8 +19,7 @@ twitter_username:   liushaofeng89
 #facebook_username:  liushaofeng89
 # linkedin_username:  liushaofeng89
 
-host: 0.0.0.0
-port: 8080
+
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
