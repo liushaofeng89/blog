@@ -26,38 +26,40 @@ tags:
 
 ## 鬼吹灯系列
 
-### 电视剧
-《鬼吹灯之黄皮子坟》 
+### 《鬼吹灯之精绝古城》  
+主演：靳东，陈乔恩，赵达，岳旸  
+[[第01集](thunder://QUFmdHA6Ly9nOmdAdHYuZGwxMjM0LmNvbToyMTIxLyVFOSVBQyVCQyVFNSU5MCVCOSVFNyU4MSVBRiVFNCVCOSU4QiVFNyVCMiVCRSVFNyVCQiU5RCVFNSU4RiVBNCVFNSU5RiU4RTAxJUU0JUJGJUFFJUU2JUFEJUEzLm1wNFpa)] [[第02集](thunder://QUFmdHA6Ly9nOmdAdHYuZGwxMjM0LmNvbToyMTIxLyVFOSVBQyVCQyVFNSU5MCVCOSVFNyU4MSVBRiVFNCVCOSU4QiVFNyVCMiVCRSVFNyVCQiU5RCVFNSU4RiVBNCVFNSU5RiU4RTAyJUU0JUJGJUFFJUU2JUFEJUEzLm1wNFpa)] [[第03集]()] [[第04集]()] [[第05集]()] [[第06集]()] [[第07集]()] [[第08集]()] 
 
-《鬼吹灯之牧野诡事》
+### 《鬼吹灯之黄皮子坟》 
 
-《鬼吹灯之精绝古城》
+
+### 《鬼吹灯之牧野诡事》
 
 ---
-### 电影
-《鬼吹灯之寻龙诀》 《鬼吹灯之九层妖塔》 
 
+### 《鬼吹灯之寻龙诀》 
+
+### 《鬼吹灯之九层妖塔》 
 
 
 ## 盗墓笔记系列
 
-### 电视剧
-《盗墓笔记》
+
+### 《盗墓笔记》
 ---
 
-### 电影
-《盗墓笔记》
+
+### 《盗墓笔记》
 
 
 ## 盗墓笔记系列
 
-### 电视剧
-《老九门》
+
+### 《老九门》
 ---
 
-### 电影
-《老九门番外》
 
+### 《老九门番外》
 
 ## 其他
 
