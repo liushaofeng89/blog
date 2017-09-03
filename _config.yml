@@ -63,6 +63,9 @@ netease_comment: false
 ga_track_id: 'UA-105753314-1'            # Format: UA-xxxxxx-xx
 ga_domain: liushaofeng.com
 
+# Baidu Analytics
+ba_track_id: '6de9248d59517e73c8f3ee3fc741a5be'
+
 
 
 # Sidebar settings
