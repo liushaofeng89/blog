@@ -5,6 +5,7 @@ subtitle:   "Ror JavaEE 版本"
 date:       2017-09-03 18:53:00
 author:     "Fengshao"
 header-img: "assets/img/post-play-with-eclipse.jpg"
+catalog: true
 tags:
     - eclipse
     - 快捷键
@@ -30,9 +31,7 @@ tags:
 ### 4	Eclipse中文字体偏小设置
 安装新版的eclipse开发环境以后，中文字体总是会显的很小（早期版本的eclipse是没有这问题的）。在写注释的时候往往会用中文来写，用中文注释后字体就特效看不清楚，换成其他字体之后又感觉英文的字体又不好看，还是怀念eclipse默认的英文字体的风格。针对上述问题目前主要有两种解决办法：
 
-- 方法一：修改字符类型
-
-通过Window菜单->Preferences->General->Appearance->Colors and Fonts
+- **修改字符类型**：通过Window菜单->Preferences->General->Appearance->Colors and Fonts
 选中里面的Basic->Text Font，然后点击“Edit…”。在弹出的对话框中将“脚本(R)”修改为“中欧字符”，点击确定即可。
 
 - 方法二：修改字体
@@ -111,9 +110,11 @@ Eclipse支持的模板有很多种，例如常见的checkstyle,PMD,findbugs等�
 安装完成以后，后续插件有升级时就可以直接通过Help菜单->Check For Updates进行插件升级。由此可见之前的插件包中至少都会包含插件的升级服务器地址，以及版本等相关信息。
 
 ## 代码历史记录  
-在日常的编码过程中，有时候会遇到这样的一些场景（没有使用代码版本控制工具的前提）：
-1. 昨天写的那段代码感觉要好些，可是那几行已经被我删除了；
-2. 昨天的那段代码感觉还行，用在这里很合适，可以我现在已经改的面目全非了，似乎找不回来了；
+在日常的编码过程中，有时候会遇到这样的一些场景（没有使用代码版本控制工具的前提）：  
+
+1. 昨天写的那段代码感觉要好些，可是那几行已经被我删除了；  
+2. 昨天的那段代码感觉还行，用在这里很合适，可以我现在已经改的面目全非了，似乎找不回来了；  
+
 往往就会遇到那么一瞬间想找回以前的记录，找回以前的某一个时间点的代码。可惜又没有使用版本控制，找不回以前的代码。这个时候不要着急，eclipse自身就提供了local history功能，但是要求是想找回记录的这个文件中间没有被删除过。如果被删除了，貌似相关的历史纪录也都会被丢弃。
 选中需要找回历史纪录的文件，点击右键，在弹出的菜单项中选择“Replace With”或“Compare With”后都能找到一个“Local History…”这样的子菜单，通过点击这个子菜单就能打开当前文件的历史纪录。通过历史纪录就能找回你丢失或者被改掉的代码。从此再也不用担心原来的代码找不回来了。  
 
@@ -122,18 +123,24 @@ Eclipse支持的模板有很多种，例如常见的checkstyle,PMD,findbugs等�
 **[XML](https://zh.wikipedia.org/wiki/XML)文件的文档类型定义**（Document Type Definition）可以看成一个或者多个XML文件的模板，在这里可以定义XML文件中的元素、元素的属性、元素的排列方式、元素包含的内容等等。概念缘于SGML，每一份SGML文件，均应有相对应的DTD。对XML文件而言，DTD并非特别需要，well-formed XML就不需要有DTD。DTD有四个组成如下：元素（Elements）、属性（Attribute）、实体（Entities）、注释（Comments）。由于DTD限制较多，使用时较不方便，近来已渐被XML Schema（[XSD](https://zh.wikipedia.org/wiki/XML_Schema)）所替换。
 **XSD XML纲要定义**（XML Schema Definition）是以可扩展标记语言（标准通过可扩展标记语言的子集）为基础的。它用于可替代文档类型定义（DTD）；一份XML schema文件描述了可扩展标记语言文档的结构。
 细心的同学就发现了，在早期的HTML4.0，Struts2，Hibernate，Spring等XML配置文件中都会有这样的申明：
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
+```html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
 
-    <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+```html
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+```
 
-
+```html
     <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+```
 
+这些所谓的申明到底有什么用呢？曾经在学习这些框架的以及使用这些工具的时候是否有想过这个问题呢。前面DTD介绍说到它是用来定义文件中的元素、元素的属性、元素的排列方式、元素包含的内容等等。能够在当前节点中创建什么节点，当前节点下又能放置哪些节点，节点的顺序又没有要求等等都可以在里面约束。我们平常接触最多的HTML，在最新的HTML5标准中已经在文档类型声明中省略掉了对DTD文件的引用，在早期的HTML版本中都需显示的声明。这个由W3提出来的约束就规定了HTML文档中能够标识哪些元素。HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SGML。而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为（让浏览器按照它们应该的方式来运行）。  
+既然知道了DTD文件的作用，那么使用eclipse来帮助我们自动填充当前文件中能够使用什么元素就显得很轻松了。接下来就以Hibernate框架的hibernate.xml配置文件为例进行讲解说明：  
 
-这些所谓的申明到底有什么用呢？曾经在学习这些框架的以及使用这些工具的时候是否有想过这个问题呢。前面DTD介绍说到它是用来定义文件中的元素、元素的属性、元素的排列方式、元素包含的内容等等。能够在当前节点中创建什么节点，当前节点下又能放置哪些节点，节点的顺序又没有要求等等都可以在里面约束。我们平常接触最多的HTML，在最新的HTML5标准中已经在文档类型声明中省略掉了对DTD文件的引用，在早期的HTML版本中都需显示的声明。这个由W3提出来的约束就规定了HTML文档中能够标识哪些元素。HTML 4.01 中的 doctype 需要对 DTD 进行引用，因为 HTML 4.01 基于 SGML。而 HTML 5 不基于 SGML，因此不需要对 DTD 进行引用，但是需要 doctype 来规范浏览器的行为（让浏览器按照它们应该的方式来运行）。
-既然知道了DTD文件的作用，那么使用eclipse来帮助我们自动填充当前文件中能够使用什么元素就显得很轻松了。接下来就以Hibernate框架的hibernate.xml配置文件为例进行讲解说明：
-在hibernate 4.3.5中使用的是“http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd” 定义约束文件。那么可以通过浏览器输入上述地址就可以下载该DTD文件。下载好该文件以后，通过eclipse的Window菜单->Preferences->XML->XML Catalog后，在右侧点击“Add…”按钮。在弹出的对话框中可以输入上述dtd在线地址（能够连接到该地址的前提下）或者通过“File System”选择刚才下载下来的DTD文件。完成上述操作之后需要在下方的“Key:”中输入：“-//Hibernate/Hibernate Configuration DTD 3.0//EN”这样的一个键，这个键必须与配置文件中声明的保持一致，否则可能会造成配置不成功的问题。配置完成后点击确认。这时可能需要重启eclipse，在hibernate.cfg.xml文件中就能使用“alt+/”进行XML的自动提示补全功能了。
+在hibernate 4.3.5中使用的是“http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd” 定义约束文件。那么可以通过浏览器输入上述地址就可以下载该DTD文件。下载好该文件以后，通过eclipse的Window菜单->Preferences->XML->XML Catalog后，在右侧点击“Add…”按钮。在弹出的对话框中可以输入上述dtd在线地址（能够连接到该地址的前提下）或者通过“File System”选择刚才下载下来的DTD文件。完成上述操作之后需要在下方的“Key:”中输入：“-//Hibernate/Hibernate Configuration DTD 3.0//EN”这样的一个键，这个键必须与配置文件中声明的保持一致，否则可能会造成配置不成功的问题。配置完成后点击确认。这时可能需要重启eclipse，在hibernate.cfg.xml文件中就能使用“alt+/”进行XML的自动提示补全功能了。  
+
 注:即使同一款软件，不同的版本之间也可能使用的是不同的DTD，因此请各位读者在自己操作的过程中认真查阅官网的帮助文档合理选择正确的版本DTD约束文件进行使用。
 
 ## 写在最后  
