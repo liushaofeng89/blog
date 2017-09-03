@@ -5,7 +5,7 @@ header-img: assets/img/home-bg.jpg
 email: liushaofeng89@qq.com
 description: ""
 keyword: ""
-url: "http://liushaofeng.com"              # your host, for absolute URL
+url: "https://liushaofeng.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -94,6 +94,6 @@ friends: [
         href: "https://liushaofeng.cn"
     },{
         title: "Hux Blog",
-        href: "http://huangxuan.me/"
+        href: "https://huangxuan.me/"
     }
 ]
