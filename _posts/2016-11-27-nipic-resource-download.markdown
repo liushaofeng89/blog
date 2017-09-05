@@ -38,7 +38,7 @@ tags:
 QQ群（昵图网|我图网素）：107051071
 QQ群（昵图网素材免费下载② ）：345228668
 
-![支付宝打赏](/assets/img/alipay.jpg)  ![微信打赏](/assets/img/weixinpay.jpg)
+![打赏二维码](/assets/img/donate.jpg)
 
 ## 后记
 
