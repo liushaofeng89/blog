@@ -4,7 +4,7 @@ title:      "国内外僵尸鬼片汇总"
 subtitle:   "僵尸鬼片"
 date:       2017-09-08 22:53:00
 author:     "Fengshao"
-header-img: "assets/img/post-play-with-eclipse.jpg"
+header-img: "assets/img/post-zombie.jpg"
 catalog: true
 tags:
     - 僵尸
