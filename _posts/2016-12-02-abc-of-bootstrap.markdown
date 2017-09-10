@@ -89,9 +89,7 @@ bootstrap/
 
 ### 禁止响应式布局
 1. 移除 此 CSS 文档中提到的设置浏览器视口（viewport）的标签：`<meta>`:  
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1">
-```
+
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
