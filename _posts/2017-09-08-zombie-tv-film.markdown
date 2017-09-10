@@ -26,11 +26,11 @@ tags:
 
 ## 国产
 
-《僵尸叔叔》 《僵尸先生》 《僵尸道长》 《僵尸家族》 《音乐僵尸》 《灵幻先生》 
+《[僵尸叔叔](http://www.66ys.tv/kongbupian/20141010/28633.html)》 《[僵尸先生](http://www.66ys.tv/xijupian/20110812/6c5be7097ebea745ad16e4fa1d9a396d.html)》 《僵尸道长》 《[僵尸家族](http://www.66ys.tv/kongbupian/20110812/1d26075dc4afe20374830f59301ba8a8.html)》 《音乐僵尸》 《[灵幻先生](http://www.66ys.tv/kongbupian/20131104/25911.html)》 
 
-《一眉道人》  《魔幻界》
+《[一眉道人](http://www.66ys.tv/kongbupian/20110816/f1937091f3af7b6fab185d6995a898b1.html)》  《魔幻界》
 
-《驱魔警察》 《鬼打鬼》 《人吓人》 《鬼咬鬼》 《赢钱专家》
+《[驱魔警察](http://www.66ys.tv/kongbupian/20150205/29438.html)》 《[鬼打鬼](http://www.66ys.tv/bd/2009-08-06/7803.htm)》 《[人吓人](http://www.66ys.tv/bd/2009-03-27/6504.htm)》 《[鬼咬鬼](http://www.66ys.tv/bd/2009-04-30/6893.htm)》 《[赢钱专家](http://www.iqiyi.com/v_19rrho5p8c.html?vfm=m_312_shsp)》
 
 
 
