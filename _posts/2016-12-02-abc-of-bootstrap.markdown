@@ -88,7 +88,7 @@ bootstrap/
 ```
 
 ### 禁止响应式布局
-1. 移除 此 CSS 文档中提到的设置浏览器视口（viewport）的标签：`<meta>`:  
+- 移除 此 CSS 文档中提到的设置浏览器视口（viewport）的标签：`<meta>`:  
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -96,9 +96,9 @@ bootstrap/
 
 > 为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。在移动设备浏览器上，通过为视口（viewport）设置 `meta` 属性为 `user-scalable=no` 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！
 
-2. 通过为 .container 类设置一个 width 值从而覆盖框架的默认 width 设置，例如 width: 970px !important; 。请确保这些设置全部放在默认的 Bootstrap CSS 文件的后面。注意，如果你把它放到媒体查询中，也可以略去 !important 。
-3. 如果使用了导航条，需要移除所有导航条的折叠和展开行为。
-4. 对于栅格布局，额外增加 .col-xs-* 类或替换掉 .col-md-* 和 .col-lg-*。 不要担心，针对超小屏幕设备的栅格系统能够在所有分辨率的环境下展开。
+- 通过为 .container 类设置一个 width 值从而覆盖框架的默认 width 设置，例如 width: 970px !important; 。请确保这些设置全部放在默认的 Bootstrap CSS 文件的后面。注意，如果你把它放到媒体查询中，也可以略去 !important 。
+- 如果使用了导航条，需要移除所有导航条的折叠和展开行为。
+- 对于栅格布局，额外增加 .col-xs-* 类或替换掉 .col-md-* 和 .col-lg-*。 不要担心，针对超小屏幕设备的栅格系统能够在所有分辨率的环境下展开。
 
 ### License
 Code and documentation copyright 2011-2016 Twitter, Inc. Code released under the MIT license. Docs released under Creative Commons.
