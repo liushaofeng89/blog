@@ -52,32 +52,51 @@ bootstrap/
 
 ### CDN
 使用 Bootstrap 中文网提供的免费 CDN 加速服务（同时支持 http 和 https 协议）
-```
+```html
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 ```
-```
+```html
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 ```
-```
+```html
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 ```
-```
+```html
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 ```
 
 
 ### 最小模板
-略...
+```html
+<!DOCTYPE html>
+<html class="full" lang="en">
+    <head>
+        <title> Bootstrap Template</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Put your page content here! -->
+		
+        <!-- jQuery Version 2.1.4 -->
+        <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </body>
+</html>
+```
 
 ### 禁止响应式布局
 1. 移除 此 CSS 文档中提到的设置浏览器视口（viewport）的标签：<meta>。
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
-	> 为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。在移动设备浏览器上，通过为视口（viewport）设置 `meta` 属性为 `user-scalable=no` 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！
+
+> 为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。在移动设备浏览器上，通过为视口（viewport）设置 `meta` 属性为 `user-scalable=no` 可以禁用其缩放（zooming）功能。这样禁用缩放功能后，用户只能滚动屏幕，就能让你的网站看上去更像原生应用的感觉。注意，这种方式我们并不推荐所有网站使用，还是要看你自己的情况而定！
 
 2. 通过为 .container 类设置一个 width 值从而覆盖框架的默认 width 设置，例如 width: 970px !important; 。请确保这些设置全部放在默认的 Bootstrap CSS 文件的后面。注意，如果你把它放到媒体查询中，也可以略去 !important 。
 3. 如果使用了导航条，需要移除所有导航条的折叠和展开行为。
@@ -86,7 +105,7 @@ bootstrap/
 ### License
 Code and documentation copyright 2011-2016 Twitter, Inc. Code released under the MIT license. Docs released under Creative Commons.
 
-##全局css
+## 全局css
 1. **布局容器：**
 	* `.container`:类用于固定宽度并支持响应式布局的容器。
 	* `.container-fluid`:类用于 100% 宽度，占据全部视口（viewport）的容器。
@@ -145,10 +164,10 @@ Code and documentation copyright 2011-2016 Twitter, Inc. Code released under the
 	* 清除浮动: 通过为父元素添加 .clearfix 类可以很容易地清除浮动（float）。
 	* 显示和隐藏: .show 和 .hidden 类可以强制任意元素显示或隐藏(对于屏幕阅读器也能起效)。.hide 类仍然可用，但是它不能对屏幕阅读器起作用，并且从 v3.0.1 版本开始就不建议使用了。请使用 .hidden 或 .sr-only 。
 
-##组件
+## 组件
 无数可复用的组件，包括字体图标、下拉菜单、导航、警告框、弹出框等更多功能。
 
-###Glyphicons:
+### Glyphicons:
 包括250多个来自Glyphicon Halflings的字体图标。Glyphicons Halflings一般是收费的，但是他们的作者允许Bootstrap免费使用。为了表示感谢，希望你在使用时尽量为[Glyphicons](http://glyphicons.com/)添加一个友情链接。出于性能的考虑，所有图标都需要一个基类和对应每个图标的类。把下面的代码放在任何地方都可以正常使用。注意，为了设置正确的内补（padding），务必***在图标和文本之间添加一个空格***。
 	
 1. 图标类不能和其它组件直接联合使用。它们不能在同一个元素上与其他类共同存在。应该创建一个嵌套的`span`标签，并将图标类应用到这个span`标签上。
@@ -158,31 +177,31 @@ Code and documentation copyright 2011-2016 Twitter, Inc. Code released under the
 
 **DEMO:**`<span class="glyphicon glyphicon-search" aria-hidden="true"></span>`
 
-###下拉菜单:
+### 下拉菜单:
 下拉菜单是可切换的，是以列表格式显示链接的上下文菜单。这可以通过与 下拉菜单（Dropdown） JavaScript 插件 的互动来实现。
 如需使用下列菜单，只需要在 class .dropdown 内加上下拉菜单即可。[点击查看教程](http://www.runoob.com/bootstrap/bootstrap-dropdown-plugin.html)
 	
-###导航:
+### 导航:
 Bootstrap 提供的用于定义导航元素的一些选项。它们使用相同的标记和基类 .nav。Bootstrap 也提供了一个用于共享标记和状态的帮助器类。改变修饰的 class，可以在不同的样式间进行切换。[点击查看教程](http://www.runoob.com/bootstrap/bootstrap-navigation-elements.html)
 
-###警告框:
+### 警告框:
 警告框（Alert）消息大多是用来想终端用户显示诸如警告或确认消息的信息。使用警告框（Alert）插件，您可以向所有的警告框消息添加可取消（dismiss）功能。[点击查看教程](http://www.runoob.com/bootstrap/bootstrap-alert-plugin.html)
 
 ###弹出框:
 弹出框（Popover）与工具提示（Tooltip）类似，提供了一个扩展的视图。如需激活弹出框，用户只需把鼠标悬停在元素上即可。弹出框的内容完全可使用 Bootstrap 数据 API（Bootstrap Data API）来填充。该方法依赖于工具提示（tooltip）。
 如果您想要单独引用该插件的功能，那么您需要引用 popover.js，它依赖于 工具提示（Tooltip）插件。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 bootstrap.js 或压缩版的 bootstrap.min.js。[点击查看教程](http://www.runoob.com/bootstrap/bootstrap-alert-plugin.html)
 
-###其他组件：
+### 其他组件：
 [中文版官方文档](http://v3.bootcss.com/components/)
 
-##插件
+## 插件
 [插件地址](http://v3.bootcss.com/javascript/)
 
-##定制
+## 定制
 通过自定义 Bootstrap 组件、Less 变量和 jQuery 插件，定制一份属于你自己的 Bootstrap 版本。
 [点击定制css](http://v3.bootcss.com/customize/)
 
-##相关网站：
+## 相关网站：
  * [bootstrap组件](http://bootsnipp.com/)
  * [fontawesome字体图标](http://fontawesome.io/ "支持颜色，大小的图标字体")
  * [bootstrap for IE6](http://www.bootcss.com/p/bsie/)
