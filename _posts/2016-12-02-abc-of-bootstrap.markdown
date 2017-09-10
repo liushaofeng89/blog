@@ -14,7 +14,7 @@ tags:
 ---
 
 
-##介绍
+## 介绍
 Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。Bootstrap 是完全开源的。它的代码托管、开发、维护都依赖 [GitHub](https://github.com/twbs/bootstrap "bootstrap@github") 平台。最新版本为： v3.3.5
 
 * 国内：[http://www.bootcss.com/](http://www.bootcss.com/)  
@@ -88,7 +88,7 @@ bootstrap/
 ```
 
 ### 禁止响应式布局
-1. 移除 此 CSS 文档中提到的设置浏览器视口（viewport）的标签：<meta>。
+1. 移除 此 CSS 文档中提到的设置浏览器视口（viewport）的标签：`<meta>`:  
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
