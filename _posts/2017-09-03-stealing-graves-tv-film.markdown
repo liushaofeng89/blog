@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "盗墓电视剧与电影总览"
-subtitle:   "\"鬼吹灯与盗墓笔记\""
+subtitle:   "鬼吹灯/盗墓笔记/老九门..."
 date:       2017-09-03 12:51:23
 author:     "Fengshao"
 header-img: "assets/img/post-bg-stealing-graves-tv-film.jpg"
