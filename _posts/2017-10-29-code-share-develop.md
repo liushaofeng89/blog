@@ -50,7 +50,7 @@ Git是一个开源的分布式版本控制系统，可以有效、高速的处�
 ### git安装
 1. 安装git
   git的获取渠道有很多方式，当然最常见的是去[官网](https://git-scm.com/)下载。由于git的服务器在国外，那么国内通过百度搜索也能够快速的找到下载地址，如下图。  
-  ![百度GIT下载](assets/img/post-baidu-git.png)  
+  ![百度GIT下载](/assets/img/post-baidu-git.png)  
 2. 安装Open SSH
   SSH官也是可以通过[官网](http://www.openssh.com/)地址下载，下载以后，直接安装。
 
@@ -71,8 +71,8 @@ Git是一个开源的分布式版本控制系统，可以有效、高速的处�
   作为技术大牛，命令行操作代码版本控制是一件非常酷的事情。因此用不用在于你，这里也不给出相关的命令了，根据需要自己查找使用即可。一般情况下只需要记住一些常用的命令就能胜任你的工作了。
 #### 可视化工具操作
   对于大多数的windows用户来说，还是习惯使用图形化的操作界面来进行代码版本的控制。git相关的有两个图形化管理工具，一个是sourcetree，一个是tortoisegit。tortoisegit是一款UI与SVN相同的可视化git操作工具，它的出现估计是为了照顾那些从SVN转过来的朋友。感兴趣的可以去试试。下图分别展示了sourcetree以及tortoisegit的UI效果。  
-  ![sourcetree](assets/img/1.png)
-  ![tortoisegit](assets/img/2.png)  
+  ![sourcetree](/assets/img/1.png)
+  ![tortoisegit](/assets/img/2.png)  
   
 #### IDE集成操作
 目前最近几年的eclipse以及其他IDE工具都已经对git支持了，因此选择自己喜欢的IDE进行编程，都可以使用IDE自带的git操作，实现代码的同步与共享。
