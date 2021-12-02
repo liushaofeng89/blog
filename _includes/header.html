@@ -1,24 +1,25 @@
-<a href="{{ "/" | relative_url }}" class="logo">
-  {%- if site.logo -%}
-  <img src="{{ site.logo | img_url_prefix }}" class="logo_img">
-  {%- endif -%}
-  <h1>{{ site.title }}</h1>
-</a>
-{%- if "slides,chapter,book" contains page.layout and site.theme_setting.archive_page -%}
-{%- assign archive_page = site.pages | where: "path", site.theme_setting.archive_page | first -%}
-<a href="{{ archive_page.url | relative_url }}" class="sidebar__toggler">
-  <span class="sidebar__toggler_top"></span>
-  <span class="sidebar__toggler_middle"></span>
-  <span class="sidebar__toggler_bottom"></span>
-</a>
-{%- endif %}
-{%- if page.layout == "chapter" -%}
-<div class="book-header" role="navigation">
-    <a href="#" id="summaryToggler" class="summary__toggler">
-      {% include icons/ellipsis.html%}
-    </a>
-  <h1>
-    {{ page.title }} - {{ page.book.title }}
-  </h1>
-</div>
-{%- endif -%}
+<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="{{ '/' | relative_url }}">
+        <div class="header__logo--container">
+          {% include logo.svg %}
+        </div>
+      </a>
+      <nav class="header__links">
+        <div class="container header__links-wrapper">
+          <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">Home</span></a>
+          <a class="header__link" href="{{ '/about' | relative_url }}" itemprop="url"><span itemprop="name">About</span></a>
+          <a class="header__link" href="{{ '/contact' | relative_url }}" itemprop="url">
+            <span itemprop="name">Contact</span>
+          </a>
+        </div>
+      </nav>
+      <div class="header__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
