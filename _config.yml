@@ -1,101 +1,76 @@
-# Site settings
-title: Fengshao's Blog
-SEOTitle: 锋少的博客 | Fengshao's Blog
-header-img: assets/img/home-bg.jpg
-email: liushaofeng89@qq.com
-description: ""
-keyword: ""
-url: "https://liushaofeng.com"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+# title: Your Site Title
+# description: The description of your site.
+# email: your-email@address.com
 
+# author: Your name #  Default is your site title.
 
+# # Your social accounts.
+# social:
+#   github: github_username
+#   twitter: twitter_username
+#   facebook: facebook_username
+#   instagram: instagram_username
+#   linkedin: linkedin_username
+#   weibo: weibo_username
 
-# SNS settings
-RSS: false
-weibo_username:     liushaofeng89
-zhihu_username:     liushaofeng89
-github_username:    liushaofeng89
-twitter_username:   liushaofeng89
-#facebook_username:  liushaofeng89
-# linkedin_username:  liushaofeng89
+# # Theme Settings
 
+# # Your site's logo. Will be shown on the left top of your page.
+# logo: /img/logo.svg
+# # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
+# img_prefix: https://your-img-cdn.com
+# # The RSS link of your blog.
+# rss: "/feed.xml"
 
+# # The followings are settings for displays of your blog.
+# theme_setting:
+#   # The slides count in the slides layout. Default is 4.
+#   slides_count: 5
+#   # The ← back URL on the top of your post page. Default is your site's home page.
+#   blog_page: "blog/index.md"
+#   # The URL on your name on the bottom of your post and page. Default is your site's home page.
+#   about_page: "about.md"
+#   #  The URL of the menu icon(which has three black lines). Will be shown on the slides/book/chapter layouts It won't be shown if blank.
+#   archive_page: "archive.md"
+#   # The nav links on the top right of home/page/post/blog layout. You can set a local page(by setting a layout's path) or and external link ( both title and url are required) here.
+#   nav_pages:
+#     - "about.md"
+#     -
+#       title: "External Link Title"
+#       url: "https://your-external-link.com"
+#   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
+#   code: true # Code highlight.
+#   math: true # Mathjax
+#   mermaid: true # Mermaid
+#   #  Locales of this theme.
+#   lang:
+#     category_all: All # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
+#     blog_title: Blog # The text of ← back url on the top of the post layout.  Default is 'Home'.
+#     # The locales of the comment controls.
+#     comment:
+#       user: "昵称"
+#       email: "邮箱"
+#       url: "链接"
+#       message: "说点什么吧..."
+#       reply: "回复"
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# head_code: |
+#   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
 
-
-
-# plugins
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Disqus settings
-disqus_username: fenshaosblog
-
-# Netease setttings
-netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-105753314-1'            # Format: UA-xxxxxx-xx
-ga_domain: liushaofeng.com
-
-# Baidu Analytics
-ba_track_id: '6de9248d59517e73c8f3ee3fc741a5be'
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /assets/img/avatar-lsf.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# Friends
-friends: [
-    {
-        title: "锋少的博客",
-        href: "https://liushaofeng.cn"
-    },{
-        title: "鱼得水",
-        href: "http://www.yudeshui.club/"
-    },{
-        title: "Hux Blog",
-        href: "https://huangxuan.me/"
-    }
-]
+# # The settings of comments.
+# comment:
+#   # You should set it to enable comment
+#   enabled: true
+#   # Your comment provider
+#   provider: disqus # static/disqus
+#   # If provider == disqus
+#   disqus:
+#     name: website_name
+#   # Or provider == static
+#   static:
+#     # Your static comment url.
+#     postUrl:  https://api.staticman.net/v2/connect/GITHUB-USERNAME/GITHUB-REPOSITORY
+# # The settings of local smileys used in static comments. The jekyll-smiley plugin is required.
+# smiley:
+#   enabled: true
+#   dir: img/smileys
