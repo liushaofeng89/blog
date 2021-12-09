@@ -6,6 +6,9 @@ featured-img: github
 
 ---
 
+## 开放接口
+  * [public-apis](https://github.com/public-apis/public-apis)
+
 ## GIT访问加速
   * [GitHub520](https://github.com/521xueweihan/GitHub520)
 
@@ -22,6 +25,7 @@ featured-img: github
   
 ## 人工智能
   * [google语音转文字](https://github.com/opensourceteams/google-sdk-speech-to-text)
+  * [WantWords](https://github.com/thunlp/WantWords)
 
 ## 其他
   * [图片转像素画](https://github.com/chuiliu/the-pixel-art)
