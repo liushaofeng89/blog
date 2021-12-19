@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 易学入门教程
+title: "易学入门教程"
 summary: 易学入门基础知识笔记。
+categories: CATEGORY-1
 featured-img: the_book_of_changes
 
 ---
