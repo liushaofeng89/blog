@@ -13,6 +13,7 @@ featured-img: github
   * [GitHub520](https://github.com/521xueweihan/GitHub520)
 
 ## 翻墙代理类
+  * [fanqiang](https://github.com/bannedbook/fanqiang)
   * [XX-Net](https://github.com/XX-net/XX-Net)	
   
 ## 图片格式
