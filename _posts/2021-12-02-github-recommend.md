@@ -28,5 +28,8 @@ featured-img: github
   * [google语音转文字](https://github.com/opensourceteams/google-sdk-speech-to-text)
   * [WantWords](https://github.com/thunlp/WantWords)
 
+## 下载
+  * [TrackersList](https://github.com/XIU2/TrackersListCollection)
+
 ## 其他
   * [图片转像素画](https://github.com/chuiliu/the-pixel-art)
