@@ -33,3 +33,4 @@ featured-img: github
 
 ## 其他
   * [图片转像素画](https://github.com/chuiliu/the-pixel-art)
+  * [卡通头像生成](https://github.com/fangpenlin/avataaars-generator)
