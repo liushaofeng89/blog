@@ -9,6 +9,11 @@ featured-img: github
 ## 开放接口
   * [public-apis](https://github.com/public-apis/public-apis)
 
+## 软件开发
+
+### 前端开发
+  * [design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more")
+
 ## GIT访问加速
   * [GitHub520](https://github.com/521xueweihan/GitHub520)
 
@@ -38,6 +43,10 @@ featured-img: github
 ## 抽奖程序
   * [lottery](https://github.com/moshang-xc/lottery)
 
+## 游戏
+  * [金庸群侠传3D重制版](https://github.com/jynew/jynew)
+
 ## 其他
   * [图片转像素画](https://github.com/chuiliu/the-pixel-art)
   * [卡通头像生成](https://github.com/fangpenlin/avataaars-generator)
+  * [Vue Color Avatar](https://github.com/Codennnn/vue-color-avatar "一个纯前端实现的头像生成网站")
