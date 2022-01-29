@@ -27,9 +27,16 @@ featured-img: github
 ## 人工智能
   * [google语音转文字](https://github.com/opensourceteams/google-sdk-speech-to-text)
   * [WantWords](https://github.com/thunlp/WantWords)
+  * [神经网络部署框架](https://github.com/joyycom/VNN)
 
 ## 下载
   * [TrackersList](https://github.com/XIU2/TrackersListCollection)
+
+## 项目管理
+  * [dootask](https://github.com/kuaifan/dootask)
+
+## 抽奖程序
+  * [lottery](https://github.com/moshang-xc/lottery)
 
 ## 其他
   * [图片转像素画](https://github.com/chuiliu/the-pixel-art)
