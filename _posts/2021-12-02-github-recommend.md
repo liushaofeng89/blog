@@ -46,7 +46,8 @@ featured-img: github
 ## 游戏
   * [金庸群侠传3D重制版](https://github.com/jynew/jynew)
 
-## 其他
+## 艺术
   * [图片转像素画](https://github.com/chuiliu/the-pixel-art)
   * [卡通头像生成](https://github.com/fangpenlin/avataaars-generator)
   * [Vue Color Avatar](https://github.com/Codennnn/vue-color-avatar "一个纯前端实现的头像生成网站")
+  * [ColorFu](https://github.com/pearmini/colorfu "ColorFu is where people can use words, colors, patterns and images to make unique wallpapers to express their feelings or ideas.")
