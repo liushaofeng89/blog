@@ -12,7 +12,16 @@ featured-img: github
 ## 软件开发
 
 ### 前端开发
+
+#### 前端设计 
   * [design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more")
+
+#### 前端模板 
+  * [material-dashboard](https://github.com/creativetimofficial/material-dashboard)
+
+#### 前端框架
+  * [Chartist](https://github.com/gionkunz/chartist-js)
+  
 
 ## GIT访问加速
   * [GitHub520](https://github.com/521xueweihan/GitHub520)
