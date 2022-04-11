@@ -44,6 +44,10 @@ featured-img: github
   * [神经网络部署框架](https://github.com/joyycom/VNN)
   * [EasyPR](https://github.com/liuruoze/EasyPR "中文车牌识别系统")
   * [SeetaFace6](https://github.com/seetafaceengine/SeetaFace6 "中科视拓最新开放的商业正式级人脸识别版本")
+ 
+### 智能识别
+  * [PandaOCR](https://github.com/miaomiaosoft/PandaOCR.Pro)
+  * [天若OCR](http://ocr.tianruo.net/)
 
 ## 下载
   * [TrackersList](https://github.com/XIU2/TrackersListCollection)
